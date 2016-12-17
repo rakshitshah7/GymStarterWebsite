@@ -1,0 +1,86 @@
+﻿<!--<h3>Members</h3>-->
+<div class="container col-md-12">
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-default " data-toggle="modal" data-target="#myModal">Add New Member</button>
+    <div id="memberGrid"></div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row centered-form">
+                        <div class="col-xs-12 col-sm-8 col-md-6 ">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Member sign up for Gym</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <form role="form" name="MemberRegForm">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" id="first_name" class="form-control input-sm" required placeholder="First Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="last_name" id="last_name" class="form-control input-sm" required placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="address" id="address" class="form-control input-sm" required placeholder="Address">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="city" id="city" class="form-control input-sm" required placeholder="City">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="state" id="state" class="form-control input-sm" required placeholder="State">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" name="phonenumber" id="phonenumber" class="form-control input-sm" required placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="dropdown">
+                                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                    {{selectedItem}}
+                                                    <span class="caret">
+                                                    </span>
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                    <li ng-repeat="a in allMembershipPlanData">
+                                                        <a ng-click="dropboxitemselected(a)">
+                                                            {{a}}
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="datetimepicker" style="width: 100%;" />
+                                        </div>
+                                        <input type="submit" value="Register" ng-click="registerMember()" class="btn btn-info btn-block">
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

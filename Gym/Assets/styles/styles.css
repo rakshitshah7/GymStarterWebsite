@@ -1,0 +1,249 @@
+﻿body {
+}
+
+.site-header {
+    /*color: #F2EFDC;*/
+    padding: 10px;
+}
+
+.user-status a a:visited {
+    color: orangered;
+}
+
+.user-status a:active a:hover {
+    color: red;
+}
+
+.site-status {
+    margin-top: 10px;
+    /*color: white;*/
+}
+
+.site-footer {
+    background-color: #808080;
+    color: #404040;
+}
+
+.site-footer footer {
+    margin: 10px;   
+}
+
+.site-body {
+    background-color: #f8f7f2;
+    color: #404040;
+    padding: 10px;
+}
+
+.site-username-status {
+    list-style-type: none;
+    display: inline;
+}
+
+.site-login {
+    
+}
+
+.home-consumer {
+    /*background-color: #888888;*/
+}
+
+.home-contractor {
+    /*background-color:#888666;*/
+}
+
+.dashboard-btn {
+    margin-top: 15px;
+}
+
+.thumbnail_max_size {
+    max-height: 100px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+
+
+.margin-top-5 {
+    margin-top:5px;
+}
+.margin-left-5 {
+    margin-left: 5px;
+}
+.margin-right-5 {
+    margin-right: 5px;
+}
+.margin-5 {
+    margin: 5px;
+}
+
+.session-alert {
+    width:100%;
+    margin-top: 5px;
+}
+.session-alert-btn-wrapper {
+    padding: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 900px
+}
+
+.carousel-control {
+    width: 0px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 0;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.city {
+		opacity: 1.0;
+    	filter: alpha(opacity=100);
+}
+
+.city:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=70);
+
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 500%;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.bmi {
+	margin: 5%;
+	padding: 3%;
+	width: 50%;
+	border: solid #D36135;
+	color: #D36135;
+	font-size: 18px;
+}
+
+
+
+.bmi_form {
+	position: absolute;
+	
+
+}
+
+.bmi_form_result {
+	z-index: -1;
+	
+}
+
+.health_info {
+	border: solid 1px #D36135;
+	position: absolute;
+	padding: 2%;
+	text-align: center;
+	margin-left: 5%;
+}
+
+th, td {
+    padding: 2%;
+    text-align: center;
+}

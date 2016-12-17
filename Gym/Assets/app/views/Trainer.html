@@ -1,0 +1,40 @@
+﻿<div id="trainerGrid"></div>
+<div id="details"></div>
+<div id="train"></div>
+<script type="text/x-kendo-template" id="template">
+    <div id="details-container">
+        <h2>#= Trainer_Name #</h2>
+        <em>#= Employee_Type #</em>
+        <dl>
+            <dt>City: #= Employee_City #</dt>
+            <dt>State: #= Employee_State #</dt>
+            <dt>Number: #= Employee_Phone #</dt>
+        </dl>
+    </div>
+</script>
+<script type="text/x-kendo-template" id="template1">
+    <div id="details-container">
+        <h2>#= Trainer_Name #</h2>
+        <em>#= Employee_Type #</em>
+        <div class="form-group">
+            <span>Membership ID</span>
+            <input id="membershipID" style="color:gray;width: 100%;" />
+            <span>Club</span>
+            <select id="ClubName" style="color:gray;width: 100%;">
+                <option>Boston</option>
+                <option>New York</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Miami</option>
+                <option>Los Angeles</option>
+            </select>
+            <span>Training Name</span>
+            <input id="TrainingName" style="color:gray;width: 100%;" />
+            <span>Duration</span>
+            <input id="Duration" style="color:gray;width: 100%;" />
+            <span>Start Time</span>
+            <input id="datetimepickertrainer" />
+            <button class="k-button close-button">Register</button>
+        </div>
+    </div>
+</script>

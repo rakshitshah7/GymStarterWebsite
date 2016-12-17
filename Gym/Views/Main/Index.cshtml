@@ -1,0 +1,47 @@
+﻿
+<div class="container-fluid" ng-cloak ng-controller="mainCtrl">
+
+    <header class="row site-header" style="padding-bottom:0px">
+             <nav class="navbar navbar-inverse" style="margin-bottom:0px">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" ui-sref="home">GYM</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a ui-sref="home">Home</a></li>
+                        <li ><a ui-sref="club">Clubs</a></li>
+                        <li><a ui-sref="activity">Activity</a></li>
+                        <li><a ui-sref="trainer">Trainers</a></li>
+                        <li><a ui-sref="member">Members</a></li>
+                        @*<li><a ui-sref="join">Join</a></li>*@
+                    </ul>
+                   <ul class="nav navbar-nav navbar-right">
+                        <li><a ui-sref="home">Visit Us</a></li>
+                   </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    
+    <div class="row">
+        <div class="col-md-12" style="min-height:800px" ui-view></div>
+    </div>
+
+   
+            <footer>
+                <div class="col-md-12 text-right navbar-inverse" style="color:gray;padding:10px">
+                   Developed by Darshan, Jonathan, Pruthvij and Rakshit.
+                </div>
+            </footer>
+   
+</div>

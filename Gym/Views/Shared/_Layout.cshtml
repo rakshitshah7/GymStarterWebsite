@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @Styles.Render("~/Assets/Bootstrap/css/bootstrap.css")
+    @Styles.Render("~/styles")
+    @*<link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.material.mobile.min.css" />*@
+    @*<link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.highcontrast.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.highcontrast.mobile.min.css" />*@
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.materialblack.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.3.1118/styles/kendo.materialblack.mobile.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <link href="~/content/toastr.min.css" rel="stylesheet" />
+
+    </head>
+<body>
+        @RenderBody()
+  
+    @Scripts.Render("~/ng")
+    @Scripts.Render("~/app")
+    @Scripts.Render("~/jquery")
+    @Scripts.Render("~/bootstrap")
+    @Scripts.Render("~/misc")
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.4.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.3/angular-animate.min.js"></script>
+    <script src="~/Assets/app/app.js"></script>
+    <script src="~/Assets/app/controllers/mainCtrl.js"></script>
+    <script src="~/assets/app/controllers/homectrl.js"></script>    
+    <script src="~/Assets/app/controllers/memberCtrl.js"></script>
+    <script src="~/Assets/app/controllers/joinCtrl.js"></script>
+    <script src="~/Assets/app/controllers/activityCtrl.js"></script>
+    <script src="~/Assets/app/controllers/clubCtrl.js"></script>
+    <script src="~/Assets/app/controllers/trainerCtrl.js"></script>
+    <script src="//kendo.cdn.telerik.com/2016.3.1118/js/jquery.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2016.3.1118/js/kendo.all.min.js"></script>
+    <script src="~/Scripts/toastr.min.js"></script>
+    @*<script src="~/Assets/ng/toaster.js"></script>*@
+</body>
+</html>
